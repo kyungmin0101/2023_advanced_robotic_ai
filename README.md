@@ -17,6 +17,9 @@ cd 2023_advanced_robotic_ai
 1. When you want to create a virtual environment(Recommended)
 ```
 conda create -n robotics python=3.9
+conda activate robotics
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 
 2. When you want to use an already created conda virtual environment
@@ -29,8 +32,7 @@ conda env create --file robotics.yaml
 
 ### Upgrade pip and Install requirements with mentioned command below. (if you use an already created conda virtual environment, please skip this step)
 ```
-pip install --upgrade pip
-pip install -r requirements.txt
+
 ```
 
 ### Run the code with mentioned command below
