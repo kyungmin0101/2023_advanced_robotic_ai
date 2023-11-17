@@ -3,14 +3,53 @@ This is the project for the 2023 "Advanced robotic ai" at hanyang university.
 
 ## Steps to run Code
 ### Clone the repository
-  git clone https://github.com/kyungmin0101/2023_advanced_robotic_ai
+```git clone https://github.com/kyungmin0101/2023_advanced_robotic_ai```
 
 ### Goto the cloned folder.
-  cd 2023_advanced_robotic_ai
+```cd 2023_advanced_robotic_ai```
 
 ### Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
-- When you want to use an already created conda virtual environment
-``` first of all, you have to enter your conda directory in the prefix field of robotics.yaml.
-  vi robotics.yaml
+- You can choose one as you prefer.
+1. When you want to create a virtual environment(Recommended)
 ```
-  
+conda create -n robotics python=3.9
+```
+
+2. When you want to use an already created conda virtual environment
+```
+###first of all, you have to enter your conda directory in the prefix field of robotics.yaml.
+
+vi robotics.yaml
+conda env create --file robotics.yaml
+```
+
+### Upgrade pip with mentioned command below. (if you use an already created conda virtual environment, please skip this step)
+```
+pip install --upgrade pip
+```
+
+### Install requirements with mentioned command below.
+```
+pip install -r requirements.txt
+```
+
+### Run the code with mentioned command below
+```
+# for detection only
+python fall_detection.py --video $your_video
+```
+- example
+```
+python fall_detection.py --video examples/example_fall.gif
+```
+
+```
+# if you want to save your output
+```
+python fall_detection.py --video $your_video --save_output
+```
+- example
+```
+python fall_detection.py --video examples/example_fall.gif --save_output
+```
+- Output file will be created in the original file exists
