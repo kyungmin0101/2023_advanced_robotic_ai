@@ -38,6 +38,7 @@ pip install -r requirements.txt
 # for detection only
 python fall_detection.py --video $your_video
 ```
+
 - example
 ```
 python fall_detection.py --video examples/example_fall.gif
@@ -45,7 +46,6 @@ python fall_detection.py --video examples/example_fall.gif
 
 ```
 # if you want to save your output
-```
 python fall_detection.py --video $your_video --save_output
 ```
 - example
