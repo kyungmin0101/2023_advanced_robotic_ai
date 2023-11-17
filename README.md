@@ -59,6 +59,6 @@ python fall_detection.py --video examples/example_fall.gif --save_output
   </tr>
   <tr>
     <td><img src="https://github.com/kyungmin0101/2023_advanced_robotic_ai/blob/master/examples/example_fall.gif"></td>
-    <td><img src="https://github.com/kyungmin0101/2023_advanced_robotic_ai/blob/master/examples/outexample_fall.avi"></td>
+    <td><img src="https://github.com/kyungmin0101/2023_advanced_robotic_ai/blob/master/examples/examples_outexample_fall.avi"></td>
   </tr>
 </table>
