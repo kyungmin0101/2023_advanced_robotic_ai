@@ -34,21 +34,19 @@ pip install -r requirements.txt
 ```
 
 ### Run the code with mentioned command below
+#### for detection only
 ```
-# for detection only
 python fall_detection.py --video $your_video
-```
-- example
-```
+
+### examples
 python fall_detection.py --video examples/example_fall.gif
 ```
 
+#### if you want to save your output
 ```
-# if you want to save your output
 python fall_detection.py --video $your_video --save_output
-```
-- example
-```
+
+### examples
 python fall_detection.py --video examples/example_fall.gif --save_output
 ```
 - Output file will be created in the original file exists
