@@ -28,6 +28,7 @@ pip install -r requirements.txt
 
 vi robotics.yaml
 conda env create --file robotics.yaml
+conda activate robotics
 ```
 
 ### Run the code with mentioned command below
