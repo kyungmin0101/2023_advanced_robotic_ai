@@ -10,7 +10,7 @@ This is the project for the 2023 "Advanced robotic ai" at hanyang university.
 
 ### Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
 - When you want to use an already created conda virtual environment
-  ### first of all, you have to enter your conda directory in the prefix field of robotics.yaml.
+``` first of all, you have to enter your conda directory in the prefix field of robotics.yaml.
   vi robotics.yaml
-
+```
   
