@@ -77,4 +77,6 @@ dependencies:
       - tzdata==2023.3
       - urllib3==1.26.5
       - zipp==3.17.0
-prefix: /home/kmkwak/anaconda3/envs/robotics
+prefix: Please write your conda directory
+
+
