@@ -27,13 +27,9 @@ vi robotics.yaml
 conda env create --file robotics.yaml
 ```
 
-### Upgrade pip with mentioned command below. (if you use an already created conda virtual environment, please skip this step)
+### Upgrade pip and Install requirements with mentioned command below. (if you use an already created conda virtual environment, please skip this step)
 ```
 pip install --upgrade pip
-```
-
-### Install requirements with mentioned command below.
-```
 pip install -r requirements.txt
 ```
 
