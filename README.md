@@ -30,11 +30,6 @@ vi robotics.yaml
 conda env create --file robotics.yaml
 ```
 
-### Upgrade pip and Install requirements with mentioned command below. (if you use an already created conda virtual environment, please skip this step)
-```
-
-```
-
 ### Run the code with mentioned command below
 #### for detection only
 ```
