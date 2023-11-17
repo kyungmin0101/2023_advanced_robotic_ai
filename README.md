@@ -50,3 +50,15 @@ python fall_detection.py --video $your_video --save_output
 python fall_detection.py --video examples/example_fall.gif --save_output
 ```
 - Output file will be created in the original file exists
+
+### Results
+<table>
+  <tr>
+    <td>original video</td>
+    <td>results</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/kyungmin0101/2023_advanced_robotic_ai/blob/master/examples/example_fall.gif"></td>
+    <td>img src="https://github.com/kyungmin0101/2023_advanced_robotic_ai/blob/master/examples/outexample_fall.gif"></td>
+  </tr>
+</table>
