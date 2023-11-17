@@ -38,7 +38,7 @@ pip install -r requirements.txt
 ```
 python fall_detection.py --video $your_video
 
-# examples
+### examples
 python fall_detection.py --video examples/example_fall.gif
 ```
 
@@ -46,7 +46,7 @@ python fall_detection.py --video examples/example_fall.gif
 ```
 python fall_detection.py --video $your_video --save_output
 
-# examples
+### examples
 python fall_detection.py --video examples/example_fall.gif --save_output
 ```
 - Output file will be created in the original file exists
